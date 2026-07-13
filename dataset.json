@@ -1,0 +1,26 @@
+[
+  {
+    "prompt_inputs": {
+      "content": "The emergence of collective intelligence in digital environments necessitates a synthesis of sociological network theory and cognitive load management. While social capital accumulation within decentralized online communities relies heavily on reciprocal trust mechanisms, the cognitive architecture of individual participants often faces constraints due to information saturation. Consequently, the mitigation of decision fatigue in these high-velocity digital spaces requires both structural alignment of social norms and the optimization of human-computer interaction heuristics."
+    },
+    "solution_criteria": [
+      "Returns a valid JSON array of strings",
+      "Extracts distinct conceptual themes without thematic redundancy",
+      "Includes both sociological and cognitive science concepts mentioned in the text"
+    ],
+    "task_description": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+    "scenario": "Testing with a highly interdisciplinary passage that blends sociology and cognitive science to evaluate the model's ability to categorize multi-faceted academic concepts without thematic overlap."
+  },
+  {
+    "prompt_inputs": {
+      "content": "In contemplating the epistemological ramifications of the post-Enlightenment trajectory, one cannot help but observe the persistent, albeit variegated, manifestations of Hegelian dialectics as they permeate the labyrinthine corridors of contemporary sociopolitical discourse. Whilst these intellectual vestiges of the nineteenth century ostensibly seek to reconcile the antithetical tensions inherent in historical progression, their current deployment serves rather to obfuscate the ontological precariousness of the individual subject, thereby engendering a pervasive malaise that permeates the very fabric of our institutionalized democratic apparatus."
+    },
+    "solution_criteria": [
+      "Returns a valid JSON array of strings",
+      "Extracts core subject-matter topics (e.g., Hegelian dialectics, sociopolitical discourse, democratic apparatus)",
+      "Excludes decorative, archaic, or verbose filler phrases"
+    ],
+    "task_description": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+    "scenario": "Testing with an abstract from a humanities paper written in an archaic or highly verbose writing style to assess the model's capability to filter out decorative language and isolate core subject-matter keywords."
+  }
+]
